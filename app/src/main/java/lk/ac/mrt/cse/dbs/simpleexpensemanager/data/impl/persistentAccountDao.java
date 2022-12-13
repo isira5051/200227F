@@ -1,4 +1,4 @@
-package lk.ac.mrt.cse.dbs.simpleexpensemanager.data;
+package lk.ac.mrt.cse.dbs.simpleexpensemanager.data.impl;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -12,6 +12,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.AccountDAO;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.exception.InvalidAccountException;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.Account;
 import lk.ac.mrt.cse.dbs.simpleexpensemanager.data.model.ExpenseType;
